@@ -52,12 +52,12 @@ async def amireallyalive(alive):
         tele = f"**Welcome To TeleBot **\n\n"
         tele += "**`Hey! I'm alive. All systems online and functioning normally!`**\n\n"
         tele += "` 🔸 Telethon version:` **1.15.0**\n` 🔹 Python:` **3.8.3**\n"
-        tele += "` 🔸 More info:` [TeleBot](https://xditya.gitbook.io/telebot/)\n"
-        tele += "` 🔹 Bot created by:` [Aditya 🇮🇳](https://t.me/xditya)\n"
+        tele += "` 🔸 More info:` [TeleBot](https://t.me/foodieproject2)\n"
+        tele += "` 🔹 Bot created by:` [FOODIEMARTMUMBAI✪ 🇮🇳](https://t.me/foodiemartmumbai)\n"
         tele += f"` 🔸 TeleBot Uptime:` {uptime}\n"
         tele += "` 🔸 Database Status:` **All OK 👌!**\n"
         tele += f"` 🔹 My pro owner`: {DEFAULTUSER}\n\n"
-        tele += "    [✨ GitHub Repository ✨](https://github.com/xditya/TeleBot)"
+        tele += "    [✨ GitHub Repository ✨](https://github.com/foodiemartmumbai/TeleBot)"
 
         chat = await alive.get_chat()
         await alive.delete()
@@ -77,11 +77,11 @@ async def amireallyalive(alive):
         await borg.send_message(alive.chat_id, f"**Welcome To TeleBot **\n\n"
                 "**`Hey! I'm alive. All systems online and functioning normally!`**\n\n"
                 "` 🔸 Telethon version:` **1.15.0**\n` 🔹 Python:` **3.8.3**\n"
-                "` 🔸 More info:` [TeleBot](https://xditya.gitbook.io/telebot/)\n"
-                "` 🔹 Bot created by:` [Aditya 🇮🇳](https://t.me/xditya)\n"
+                "` 🔸 More info:` [TeleBot](https://t.me/foodieproject2)\n"
+                "` 🔹 Bot created by:` [FOODIEMARTMUMBAI✪ 🇮🇳](https://t.me/foodiemartmumbai)\n"
                 f"` 🔸 TeleBot Uptime:` {uptime}\n"
                 "` 🔸 Database Status:` **All OK 👌!**\n"
                 f"` 🔹 My pro owner`: {DEFAULTUSER}\n\n"
-                "    [✨ GitHub Repository ✨](https://github.com/xditya/TeleBot)", link_preview = False)
+                "    [✨ GitHub Repository ✨](https://github.com/foodiemartmumbai/TeleBot)", link_preview = False)
         await borg.send_file(alive.chat_id, file=sticker) 
         await alive.delete()
